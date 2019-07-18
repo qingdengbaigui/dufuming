@@ -1,0 +1,146 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.is-layout {
+    width: 100%;
+    height: 100%;
+}
+/*头部*/
+.chat-header,.chat-foot  {
+    width: 100%;
+    /* max-width: 640px;
+     min-width: 320px;*/
+    height: 60px;
+    background-color: #dddddd;
+    position: fixed;
+
+    text-align:center;
+    z-index: 10;
+}
+.header-ico{
+    display: block;
+    width: 50px;
+    height: 100%;
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px ;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    left: 9px;
+    top: 0;
+
+}
+.chat-name {
+
+    height: 100%;
+    padding:0 60px;
+}
+.chat-name h2 {
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    /*  padding-left: 20px;*/
+    text-align: left;
+}
+
+/*内容*/
+.ins-con {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    padding-top: 60px;
+}
+.ins-con ul,.ins-tc{
+    width: 100%;
+    background-color: #eeeeee;
+ margin-bottom: 10px;
+}
+.ins-tc {
+    text-align: center;
+
+}
+.ins-tc li a {
+    display: block;
+    color: firebrick ;
+}
+.ins-con ul li {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  padding-left: 20px;
+    position: relative;
+    border: 1px solid #888888;
+}
+.ins-con ul li span {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+    font-size: 20px;
+  color: #888888;
+
+}
+..chenyuan {
+    position: relative;
+}
+.chenyuan a {
+    display: block;
+    width: 50px;
+    height: 70px;
+margin: 10px;
+    text-align: center;
+    /*background-color: #fff;*/
+    float: left;
+}
+.chenyuan a img {
+    width: 50px;
+    height: 50px;
+  border: 1px solid silver;
+    border-radius: 24%;
+}
+.chenyuan {
+    position: relative;
+   padding-bottom: 50px;
+}
+.ck-chenyuan {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+}
+.ck-chenyuan a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.chenyuan .tianjia {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.tianjia i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    border: 1px solid silver;
+
+
+    font-style: normal;
+    background-color: #ffff;
+    font-size: 50px;
+    color: #cccccc;
+    text-align: center;
+
+}

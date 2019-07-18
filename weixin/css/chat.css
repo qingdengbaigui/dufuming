@@ -1,0 +1,242 @@
+/*全屏页面的实现*/
+body{
+    background-color: #cccccc;
+}
+
+.chat-ym {
+    width: 100%;
+    height: 100%;
+    /*max-width: 640px;
+    min-width: 320px;*/
+    margin: 0 auto;
+
+
+}
+/*头部*/
+.chat-header,.chat-foot  {
+    width: 100%;
+   /* max-width: 640px;
+    min-width: 320px;*/
+    height: 60px;
+    background-color: #dddddd;
+    position: fixed;
+
+    text-align:center;
+z-index: 10;
+}
+.header-ico{
+    display: block;
+    width: 50px;
+    height: 100%;
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px ;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    left: 9px;
+    top: 0;
+
+}
+.chat-name {
+
+    height: 100%;
+    padding:0 60px;
+}
+.chat-name h2 {
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+  /*  padding-left: 20px;*/
+    text-align: left;
+}
+.header-rt {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 60px;
+    color: #1a1a1a;
+}
+/*底部*/
+.chat-foot {
+    bottom: 0;
+    background-color: #ccc;
+    z-index: 5;
+}
+.foot-chatyx {
+    display: block;
+
+    height: 100%;
+padding: 0 150px 0 70px;
+}
+.foot-chatyx  input {
+    width: 100%;
+    height: 50px;
+  margin-top: 5px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding-left: 10px;
+}
+.foot-gneng {
+    height: 100%;
+    width: 150px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.chat-foot a:nth-child(1) i {
+    transform:rotate(90deg);
+    font-size: 16px;
+    border: 1px solid #1a1a1a;
+    width: 40px;
+    height: 40px;
+    margin-top: 11px;
+    border-radius: 50%;
+    line-height: 40px;
+
+}
+.foot-gneng a i {
+    font-family: "icomoon";
+    font-style: normal;
+    font-size: 30px;
+    color: #1a1a1a;
+
+}
+.foot-gneng a {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.foot-gneng a:nth-child(1){
+    right: 100px;
+}
+.foot-gneng a:nth-child(2)  {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1a1a1a;
+    border-radius: 100%;
+    line-height: 32px;
+   font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+/*内容页*/
+
+.chat-content {
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    background-color: #cccccc;
+   /* max-width: 640px;
+    min-width: 320px;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*接受内容*/
+.chat-news {
+   /* background-color: pink;*/
+    overflow: auto;
+    margin-bottom: 60px;
+}
+.take-news{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+   /* background-color: pink;*/
+    position: relative;
+}
+.time-news {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.take-content {
+    margin: 20px 0;
+    position: relative;
+   /* background-color: palegreen;*/
+    overflow: hidden;
+}
+.take-news img  {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    border-radius: 20%;
+
+
+}
+.take-con {
+    padding:0 10% 0 80px;
+   margin-bottom: 10px;
+    float: left;
+
+
+}
+.take-name {
+    margin-bottom:8px;
+}
+
+.take-xq {
+
+    border: 1px solid #FFFFFF;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 10px;
+
+
+}
+/*发送内容*/
+.sending-news {
+    width: 100%;
+    height: 100%;
+
+margin-bottom: 10px;
+    /*background-color: #fff;*/
+}
+
+
+.sending-news {
+    position: relative;
+}
+.sending-content {
+    padding-left: 10%;
+}
+.se-img {
+    margin-right: 20px;
+    position: absolute;
+    right:  0px;
+
+
+}
+.sending-content img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
+.sending-con {
+    display: block;
+    margin-right: 100px;
+
+
+
+}
+.sending-xq {
+    border: 1px solid #FFFFFF;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 10px;
+
+}

@@ -1,0 +1,182 @@
+.wx-layout {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: pink;
+}
+.wx-top ,.wx-foot {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 50px;
+    background-color: #dddddd;
+    position: fixed;
+    text-align:center;
+    z-index: 5;
+}
+.wx-name {
+    display: block;
+    width: 80px;
+    height: 100%;
+    line-height: 50px;
+    /*background-color: #fff;*/
+    position: absolute;
+    left: 20px;
+    top: 0;
+
+    font-size: 18px;
+}
+
+.wx-search ,.wx-select {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 80px;
+    top: 0;
+
+    line-height: 50px;
+}
+
+.wx-top a i,.wx-nav i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: white;
+}
+.wx-search  i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: #1a1a1a !important;
+}
+
+.wx-select {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 20px;
+    border: 1px solid #888888;
+    border-radius: 50%;
+    line-height: 30px;
+
+}
+
+.wx-foot {
+    height: 70px;
+    bottom: 0;
+}
+.wx-nav {
+    width: 25%;
+    height: 100%;
+
+
+}
+.wx-nav a {
+    display: block;
+    width: 50px;
+    height:100%;
+    margin: 0 auto;
+
+}
+.wx-nav a i {
+    display: block;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.wx-nav a .action {
+    color: skyblue;
+}
+/*
+内容*/
+
+
+.wx-content {
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    position: fixed;
+    top:50px;
+    overflow: auto;
+
+}
+.dis-b {
+    display: block;
+}
+.wx-con-xq {
+    width: 100%;
+    height: 70px;
+
+    position: relative;
+
+}
+.wx-con-xq img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.wx-con-xq .name-cn{
+    display: block;
+    padding-left: 50px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid silver;
+    padding-right: 80px;
+}
+.name-cn h3 {
+    display: inline-block;
+    width: inherit;
+    height: 40px;
+    line-height:40px;
+    padding-left: 10px;
+
+}
+.name-cn p {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+}
+.con-times {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.con-xx {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+.wx-content-tou ul{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.wx-content-tou ul li{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+   padding-left: 60px;
+    border: 1px solid silver;
+    font-size: 20px;
+}

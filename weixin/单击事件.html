@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Title</title>
+    <script src="./js/zepto.min.js"></script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    /*单击的特点
+    * 1：只有一根手指
+    * */
+
+    var div =document.querySelector("div");
+    $(div).on ("tap",function (e) {
+        alert("adsddsg");
+    })
+    div.addEventListener("touchstart",function () {
+       console.log(123);
+    })
+   /* var startTime,startY,startX;
+    div.addEventListener("touchstarat",function (e) {
+        if( e.targetToches.length > 1){
+            //判断是否一根手指进行操作
+            return;
+        }
+        /!*记录手指开始触摸的时间*!/
+        startTime =Date.now();
+        /!*记录手指当前的坐标*!/
+        startX=e.targetTouches[0].clientX;
+        startY=e.targetTouches[0].clientY;
+    })
+    div.addEventListener("touchend",function (e) {
+        if(e.changedTouches.length > 1){
+            //判断是否一根手指进行操作
+            return;
+        }
+        /!*判断时间差异 150ms*!/
+        console.log(Date.now()-startTime);
+        if (Date.now()-startTime > 150){//
+            return;
+        }
+        endX=e.changedTouches[0].clientX;
+        endY=e.changedTouches[0].clientY;
+        if(Math.abs(endX-startX) < 6 && Math.abs(endY-startY) < 6){
+          console.log("多个地方好的宝宝");
+        }
+    })*/
+</script>
+</body>
+</html>
